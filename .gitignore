@@ -1,0 +1,59 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ML Model files (large binary files)
+*.pkl
+*.h5
+*.model
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# React build
+frontend/build/
+
+# Environment variables (contains secrets)
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.user
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Compiled files
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
